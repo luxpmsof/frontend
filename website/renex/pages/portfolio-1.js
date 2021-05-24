@@ -65,11 +65,11 @@ const Portfolio = () => {
                                 </div>
 
                                 <div className="portfolio-content">
-                                    <Link href="/portfolio-details">
+                                    <Link href={{ pathname: '/portfolio-details', query: { index: 2 } }}>
                                         <a><i className='bx bx-plus'></i></a>
                                     </Link>
                                     <h3>
-                                        <Link href="/portfolio-details">
+                                        <Link href={{ pathname: '/portfolio-details', query: { index: 2 } }}>
                                             <a>Good Doctors</a>
                                         </Link>
                                     </h3>
@@ -84,11 +84,11 @@ const Portfolio = () => {
                                 </div>
 
                                 <div className="portfolio-content">
-                                    <Link href="/portfolio-details">
+                                    <Link href={{ pathname: '/portfolio-details', query: { index: 3 } }}>
                                         <a><i className='bx bx-plus'></i></a>
                                     </Link>
                                     <h3>
-                                        <Link href="/portfolio-details">
+                                        <Link href={{ pathname: '/portfolio-details', query: { index: 3 } }}>
                                             <a>LG CNS</a>
                                         </Link>
                                     </h3>
@@ -103,84 +103,30 @@ const Portfolio = () => {
                                 </div>
 
                                 <div className="portfolio-content">
-                                    <Link href="/portfolio-details">
+                                    <Link href={{ pathname: '/portfolio-details', query: { index: 4 } }}>
                                         <a><i className='bx bx-plus'></i></a>
                                     </Link>
                                     <h3>
-                                        <Link href="/portfolio-details">
-                                            <a>App Development</a>
+                                        <Link href={{ pathname: '/portfolio-details', query: { index: 4 } }}>
+                                            <a>Ziktalk</a>
                                         </Link>
                                     </h3>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-portfolio">
-                                <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-6.jpg" alt="image" />
-                                </div>
 
-                                <div className="portfolio-content">
-                                    <Link href="/portfolio-details">
-                                        <a><i className='bx bx-plus'></i></a>
-                                    </Link>
-                                    <h3>
-                                        <Link href="/portfolio-details">
-                                            <a>Digital Agency</a>
-                                        </Link>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-portfolio">
-                                <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-7.jpg" alt="image" />
-                                </div>
-
-                                <div className="portfolio-content">
-                                    <Link href="/portfolio-details">
-                                        <a><i className='bx bx-plus'></i></a>
-                                    </Link>
-                                    <h3>
-                                        <Link href="/portfolio-details">
-                                            <a>Website Development</a>
-                                        </Link>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-6 col-md-6">
-                            <div className="single-portfolio">
-                                <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-8.jpg" alt="image" />
-                                </div>
-
-                                <div className="portfolio-content">
-                                    <Link href="/portfolio-details">
-                                        <a><i className='bx bx-plus'></i></a>
-                                    </Link>
-                                    <h3>
-                                        <Link href="/portfolio-details">
-                                            <a>Logo & Branding</a>
-                                        </Link>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
 
                         <div className="col-lg-12 col-md-12">
                             <div className="pagination-area">
                                 <a href="#" className="prev page-numbers">
                                     <i className="flaticon-left-arrow"></i>
                                 </a>
-                                <a href="#" className="page-numbers">1</a>
-                                <span className="page-numbers current" aria-current="page">2</span>
-                                <a href="#" className="page-numbers">3</a>
+
+                                <span className="page-numbers current" aria-current="page">1</span>
+                                {/*
                                 <a href="#" className="page-numbers">4</a>
+                                */}
                                 <a href="#" className="next page-numbers">
                                     <i className="flaticon-next"></i>
                                 </a>
