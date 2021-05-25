@@ -48,12 +48,6 @@ const Partners = () => {
                     <span>[todo]</span>
                     <ul>
                         <li>Logo of companies (should move automatically like a carousel but stop if the mouse hovers over it)</li>
-                        <li>There(logo area) should be a “Get In Touch” button
-                        </li>
-                        <li>저작권, 개인정보 보호정책, 쿠키 설정, 전문
-                        </li>
-                        <li>Social Media Accounts
-                        </li>
                     </ul>
                 </div>
 
