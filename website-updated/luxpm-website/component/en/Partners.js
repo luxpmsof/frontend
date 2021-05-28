@@ -72,6 +72,25 @@ const Partners = () => {
                     <div className="partner-item">
                         <img src="/images/partner/partner-6.png" alt="image" />
                     </div>
+
+                    <div className="partner-item">
+                        <img src="/images/partner/partner-7.png" alt="image" />
+                    </div>
+
+                    <div className="partner-item">
+                        <img src="/images/partner/partner-8.png" alt="image" />
+                    </div>
+
+                    <div className="partner-item">
+                        <img src="/images/partner/partner-9.png" alt="image" />
+                    </div>
+
+                    <div className="partner-item">
+                        <img src="/images/partner/partner-10.png" alt="image" />
+                    </div>
+                    <div className="partner-item">
+                        <img src="/images/partner/partner-11.png" alt="image" />
+                    </div>
                 </OwlCarousel> : ''}
             </div>
         </div>
