@@ -11,7 +11,7 @@ const FunFacts = () => {
                                 <i className="flaticon-checked"></i>
                             </div>
                             <h3>30</h3>
-                            <p>Number of completed projects</p>
+                            <p>완료된 프로젝트 수</p>
                         </div>
                     </div>
 

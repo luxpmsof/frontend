@@ -23,7 +23,7 @@ const Portfolio = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="single-portfolio">
                                 <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-9.jpg" alt="image" />
+                                    <img src="/images/portfolio/Bitrix24_1.jpg" alt="image" />
                                 </div>
 
                                 <div className="portfolio-content">
@@ -42,7 +42,7 @@ const Portfolio = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="single-portfolio">
                                 <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-2.jpg" alt="image" />
+                                    <img src="/images/portfolio/Freestufffinder_1.jpg" alt="image" />
                                 </div>
 
                                 <div className="portfolio-content">
@@ -61,7 +61,7 @@ const Portfolio = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="single-portfolio">
                                 <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-3.jpg" alt="image" />
+                                    <img src="/images/portfolio/Gooddoctors_1.jpg" alt="image" />
                                 </div>
 
                                 <div className="portfolio-content">
@@ -80,7 +80,7 @@ const Portfolio = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="single-portfolio">
                                 <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-4.jpg" alt="image" />
+                                    <img src="/images/portfolio/LGCNS_1.jpg" alt="image" />
                                 </div>
 
                                 <div className="portfolio-content">
@@ -99,7 +99,7 @@ const Portfolio = () => {
                         <div className="col-lg-6 col-md-6">
                             <div className="single-portfolio">
                                 <div className="portfolio-image">
-                                    <img src="/images/portfolio/portfolio-5.jpg" alt="image" />
+                                    <img src="/images/portfolio/Ziktalk_1.jpg" alt="image" />
                                 </div>
 
                                 <div className="portfolio-content">
@@ -115,6 +115,24 @@ const Portfolio = () => {
                             </div>
                         </div>
 
+                        <div className="col-lg-6 col-md-6">
+                            <div className="single-portfolio">
+                                <div className="portfolio-image">
+                                    <img src="/images/portfolio/Selenium_1.jpg" alt="image" />
+                                </div>
+
+                                <div className="portfolio-content">
+                                    <Link href={{ pathname: '/portfolio-details', query: { index: 5 } }}>
+                                        <a><i className='bx bx-plus'></i></a>
+                                    </Link>
+                                    <h3>
+                                        <Link href={{ pathname: '/portfolio-details', query: { index: 5 } }}>
+                                            <a>Selenium</a>
+                                        </Link>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
 
 
                         <div className="col-lg-12 col-md-12">

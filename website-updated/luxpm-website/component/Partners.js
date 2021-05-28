@@ -44,12 +44,7 @@ const Partners = () => {
                     <h2>파트너 기업</h2>
                     <div className="bar"></div>
                 </div>
-                <div className="card-subtitle">
-                    <span>[todo]</span>
-                    <ul>
-                        <li>Logo of companies (should move automatically like a carousel but stop if the mouse hovers over it)</li>
-                    </ul>
-                </div>
+
 
                 {display ? <OwlCarousel
                     className="partner-slider owl-carousel owl-theme"

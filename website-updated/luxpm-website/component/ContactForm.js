@@ -59,15 +59,7 @@ const ContactForm = () => {
                     <h2>연락하기</h2>
                     <div className="bar"></div>
                 </div>
-                <div className="card-subtitle">
-                    <span>[todo]</span>
-                    <ul>
-                        <li>서버 연동 및 회사명 입력 관련 확인 필요</li>
-                        <li>하단 뉴스레터 삭제 여부 확인</li>
 
-
-                    </ul>
-                </div>
                 <div className="contact-form">
                     <form id="contactForm" onSubmit={handleSubmit(onSubmit)}>
                         <div className="row">
@@ -93,7 +85,7 @@ const ContactForm = () => {
                                     <input
                                         type="text"
                                         name="email"
-                                        placeholder="이곳에 이메일을 입력해주세요"
+                                        placeholder="이곳에 회사명을 입력해주세요"
                                         className="form-control"
                                         value={contact.email}
                                         onChange={handleChange}
@@ -110,7 +102,7 @@ const ContactForm = () => {
                                     <input
                                         type="text"
                                         name="number"
-                                        placeholder="이곳에 연락처를 입력해주세요"
+                                        placeholder="이곳에 이메일을 입력해주세요"
                                         className="form-control"
                                         value={contact.number}
                                         onChange={handleChange}
@@ -127,7 +119,7 @@ const ContactForm = () => {
                                     <input
                                         type="text"
                                         name="subject"
-                                        placeholder="Your Subject"
+                                        placeholder="이곳에 연락처를 입력해주세요"
                                         className="form-control"
                                         value={contact.subject}
                                         onChange={handleChange}

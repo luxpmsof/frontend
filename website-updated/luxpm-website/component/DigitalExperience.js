@@ -7,17 +7,17 @@ const DigitalExperience = () => {
         <div className="digital-experience-area ptb-100">
             <div className="container">
                 <div className="section-title">
-                    <span>Digital Experience</span>
                     <h2>우리의 서비스</h2>
                     <div className="bar"></div>
                 </div>
 
-                <div className="tab digital-experience-tab">
-                    <Tabs>
+                <div className="tab   digital-experience-tab  ">
+                    <Tabs  >
                         <TabList>
-                            <Tab>
+
+                            <Tab selected={true}>
                                 <span>
-                                    <i className="flaticon-digital-marketing flex-fill"></i>
+                                    <i className="flaticon-digital-marketing"></i>
                                     웹 애플리케이션
                                 </span>
                             </Tab>
@@ -39,6 +39,7 @@ const DigitalExperience = () => {
                                     인공지능
                                 </span>
                             </Tab>
+
 
                         </TabList>
 
@@ -73,6 +74,7 @@ const DigitalExperience = () => {
                                             <h3>빠른 전송</h3>
                                             <p>프로젝트를 위한 팀을 신속하게 구성하고, 매일 리스크를 분석하며, 가능한 최고의 솔루션을 활용하여 리스크를 완화합니다. 이를 통해 예산 범위 내에서 제때에 결과를 제공할 수 있습니다.</p>
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -83,6 +85,8 @@ const DigitalExperience = () => {
                                 </div>
                             </div>
                         </TabPanel>
+
+
 
                         <TabPanel>
                             <div className="row align-items-center">
@@ -107,7 +111,6 @@ const DigitalExperience = () => {
                                             <p>데이터베이스를 구축할 때 중요한 측면 중 하나는 클라이언트가 플랫폼에서 사용자의 행동을 예측할 수 있도록 데이터베이스를 구성한다는 것입니다.</p>
                                         </div>
 
-
                                     </div>
                                 </div>
 
@@ -118,6 +121,7 @@ const DigitalExperience = () => {
                                 </div>
                             </div>
                         </TabPanel>
+
 
                         <TabPanel>
                             <div className="row align-items-center">
@@ -190,87 +194,7 @@ const DigitalExperience = () => {
                             </div>
                         </TabPanel>
 
-                        <TabPanel>
-                            <div className="row align-items-center">
-                                <div className="col-lg-6">
-                                    <div className="digital-experience-content">
-                                        <h3>Digital Marketing</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
 
-                                        <div className="experience-inner-content">
-                                            <div className="icon">
-                                                <i className="flaticon-check"></i>
-                                            </div>
-                                            <h3>Super Responsive</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-
-                                        <div className="experience-inner-content">
-                                            <div className="icon">
-                                                <i className="flaticon-check"></i>
-                                            </div>
-                                            <h3>High Security</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-
-                                        <div className="experience-inner-content">
-                                            <div className="icon">
-                                                <i className="flaticon-check"></i>
-                                            </div>
-                                            <h3>Optimal Choice</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6">
-                                    <div className="digital-experience-image">
-                                        <img src="/images/digital-experience/digital-experience-6.png" alt="image" />
-                                    </div>
-                                </div>
-                            </div>
-                        </TabPanel>
-
-                        <TabPanel>
-                            <div className="row align-items-center">
-                                <div className="col-lg-6">
-                                    <div className="digital-experience-content">
-                                        <h3>Real-Time Analytics</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
-
-                                        <div className="experience-inner-content">
-                                            <div className="icon">
-                                                <i className="flaticon-check"></i>
-                                            </div>
-                                            <h3>Super Responsive</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-
-                                        <div className="experience-inner-content">
-                                            <div className="icon">
-                                                <i className="flaticon-check"></i>
-                                            </div>
-                                            <h3>High Security</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-
-                                        <div className="experience-inner-content">
-                                            <div className="icon">
-                                                <i className="flaticon-check"></i>
-                                            </div>
-                                            <h3>Optimal Choice</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-lg-6">
-                                    <div className="digital-experience-image">
-                                        <img src="/images/digital-experience/digital-experience-1.png" alt="image" />
-                                    </div>
-                                </div>
-                            </div>
-                        </TabPanel>
                     </Tabs>
                 </div>
             </div>

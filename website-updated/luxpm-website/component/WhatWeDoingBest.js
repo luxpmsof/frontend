@@ -5,14 +5,7 @@ const WhatWeDoingBest = () => {
     return (
         <div className="overview-area ptb-100">
             <div className="container">
-                <div className="card-subtitle">
-                    <span>[todo]</span>
-                    <ul>
-                        <li>Relevant IT Picture
-                        </li>
 
-                    </ul>
-                </div>
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="overview-content">

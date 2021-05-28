@@ -3668,8 +3668,6 @@ Testimonial Area CSS
   content: "";
   height: 90%;
   width: 100%;
-  border-left: 30px solid #fd9b5f;
-  border-bottom: 30px solid #fd9b5f;
   left: 0;
   bottom: 0;
 }
@@ -3704,6 +3702,9 @@ Testimonial Area CSS
   overflow: hidden;
 }
 
+.testimonial-image.image-four {
+  background-image: url(/images/testimonial/testimonial-4.png);
+}
 .testimonial-image.image-two {
   background-image: url(/images/testimonial/testimonial-2.jpg);
 }
@@ -4975,6 +4976,11 @@ Page Banner CSS
   background-image: url(/images/page-banner/page-banner-2.jpg);
 }
 
+.page-banner-area.item-bg1 {
+  background-image: url(/images/page-banner/page-banner-2.jpg);
+}
+
+
 .page-banner-area.item-bg2 {
   background-image: url(/images/page-banner/page-banner-3.jpg);
 }
@@ -4983,9 +4989,26 @@ Page Banner CSS
   background-image: url(/images/page-banner/page-banner-4.jpg);
 }
 
-.page-banner-area.item-bg4 {
-  background-image: url(/images/page-banner/page-banner-5.jpg);
+.page-banner-area.portfolio-detail-bg0 {
+  background-image: url(/images/portfolio/Bitrix24_1.jpg);
 }
+
+.page-banner-area.portfolio-detail-bg1 {
+  background-image: url(/images/portfolio/Freestufffinder_1.jpg);
+}
+
+.page-banner-area.portfolio-detail-bg2 {
+  background-image: url(/images/portfolio/Gooddoctors_1.jpg);
+}
+
+.page-banner-area.portfolio-detail-bg3 {
+  background-image: url(/images/portfolio/LGCNS_1.jpg);
+}
+
+.page-banner-area.portfolio-detail-bg4 {
+  background-image: url(/images/portfolio/Ziktalk_1.jpg);
+}
+
 
 .page-banner-content {
   text-align: center;

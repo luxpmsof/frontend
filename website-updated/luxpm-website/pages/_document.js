@@ -3,9 +3,12 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 class MyDocument extends Document {
     render() {
         return (
-            <Html lang="zxx">
+            <Html lang="ko">
                 <Head>
-                    <link rel="icon" type="image/png" href="/images/favicon.png"></link>
+                    <link rel="icon" type="image/png" href="http://luxpmsoft.com/favicon.ico"></link>
+
+                    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css"></link>
+
                 </Head>
                 <body>
                     <Main />

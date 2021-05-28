@@ -28,21 +28,11 @@ const Testimonials = () => {
 
     return (
         <div className="testimonial-area ptb-100">
-            <div className="card-subtitle text-white ">
-                <span>[todo]</span>
-                <ul>
-                    <li>Related images
-                    </li>
-                    <li>Background should be a related image that is coloured in blue or yellow
 
-                    </li>
-                </ul>
-            </div>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-6">
                         <div className="testimonial-content">
-                            <span>Testimonials</span>
                             <h2>시간과 비용을 절검하세요
                             </h2>
                             <div className="bar"></div>
@@ -89,7 +79,7 @@ const Testimonials = () => {
                                     <div className="icon">
                                         <i className="flaticon-left-quotes-sign"></i>
                                     </div>
-                                    <p>모든 IT 솔루션이 준비되어 있습니다. 소프트웨어 관리에서 커뮤니케이션에 이르는 모든 개발 패키지를 제공합니다.
+                                    <p>뛰어난 소프트웨어 컨설턴트와 함께 최소의 비용으로 최상의 결과를 이끌도록 합니다
                                     </p>
 
                                     <div className="info-text">

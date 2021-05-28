@@ -279,7 +279,7 @@ Section Title CSS
     to {
         transform: translateX(85px)
     }
-} 
+}
 
 /*================================================
 Preloader Area CSS
@@ -314,7 +314,7 @@ Preloader Area CSS
         left: 0;
         border-radius: 3px;
     }
-    .shadow { 
+    .shadow {
         width: 100%;
         height: 5px;
         background: $optional-color;
@@ -440,7 +440,7 @@ Navbar Area CSS
 
                     li {
                         margin: 0;
-                        
+
                         a {
                             padding: 7px 20px;
                             position: relative;
@@ -469,11 +469,11 @@ Navbar Area CSS
                             left: auto;
                             margin-top: 15px;
                             visibility: hidden;
-                            
+
                             li {
                                 a {
                                     color: $black-color;
-                                    
+
                                     &:hover, &:focus, &.active {
                                         color: $optional-color;
                                     }
@@ -483,11 +483,11 @@ Navbar Area CSS
                                     opacity: 0;
                                     left: 100%;
                                     visibility: hidden;
-        
+
                                     li {
                                         a {
                                             color: $black-color;
-        
+
                                             &:hover, &:focus, &.active {
                                                 color: $optional-color;
                                             }
@@ -497,11 +497,11 @@ Navbar Area CSS
                                             opacity: 0;
                                             left: -100%;
                                             visibility: hidden;
-                
+
                                             li {
                                                 a {
                                                     color: $black-color;
-                
+
                                                     &:hover, &:focus, &.active {
                                                         color: $optional-color;
                                                     }
@@ -511,11 +511,11 @@ Navbar Area CSS
                                                     opacity: 0;
                                                     left: 100%;
                                                     visibility: hidden;
-                        
+
                                                     li {
                                                         a {
                                                             color: $black-color;
-                
+
                                                             &:hover, &:focus, &.active {
                                                                 color: $optional-color;
                                                             }
@@ -525,11 +525,11 @@ Navbar Area CSS
                                                             opacity: 0;
                                                             left: -100%;
                                                             visibility: hidden;
-                                
+
                                                             li {
                                                                 a {
                                                                     color: $black-color;
-                
+
                                                                     &:hover, &:focus, &.active {
                                                                         color: $optional-color;
                                                                     }
@@ -539,11 +539,11 @@ Navbar Area CSS
                                                                     opacity: 0;
                                                                     left: 100%;
                                                                     visibility: hidden;
-                                        
+
                                                                     li {
                                                                         a {
                                                                             color: $black-color;
-                
+
                                                                             &:hover, &:focus, &.active {
                                                                                 color: $optional-color;
                                                                             }
@@ -847,7 +847,7 @@ Navbar Area CSS
     border: none;
 	border-radius: 0;
     padding: 0;
-    
+
     &:focus {
         outline: 0 !important;
         box-shadow: none;
@@ -879,7 +879,7 @@ Navbar Area CSS
     }
     &.collapsed {
         .top-bar {
-            transform: rotate(0);      
+            transform: rotate(0);
             left: 0;
         }
         .middle-bar {
@@ -977,7 +977,7 @@ Search Overlay CSS
         transform: translateY(-50%) translateX(-50%);
         z-index: 2;
         max-width: 500px;
-        width: 500px; 
+        width: 500px;
 
         form {
             position: relative;
@@ -990,7 +990,7 @@ Search Overlay CSS
                 border-radius: 30px;
                 color: $black-color;
                 padding: 3px 0 0 25px;
-                
+
                 &::placeholder {
                     transition: $transition;
                     letter-spacing: .5px;
@@ -1027,7 +1027,7 @@ Search Overlay CSS
         &.search-overlay {
             opacity: 1;
             visibility: visible;
-    
+
             .search-overlay-layer {
                 transform: translateX(0);
             }
@@ -1141,7 +1141,7 @@ Search Overlay CSS
                 border-radius: 30px;
                 color: $black-color;
                 padding: 3px 0 0 25px;
-                
+
                 &::placeholder {
                     transition: $transition;
                     letter-spacing: .5px;
@@ -1178,7 +1178,7 @@ Search Overlay CSS
         &.search-overlay {
             opacity: 1;
             visibility: visible;
-    
+
             .search-overlay-layer {
                 transform: translateX(0);
             }
@@ -1271,7 +1271,7 @@ Main Banner Area CSS
         margin-bottom: 16px;
         position: relative;
         z-index: 1;
-    } 
+    }
     p {
         margin-bottom: 0;
         color: #54545d;
@@ -1712,7 +1712,7 @@ Main Slider Area CSS
     h1 {
         font-size: 60px;
         margin-bottom: 16px;
-    } 
+    }
     .slider-btn {
         margin-top: 25px;
     }
@@ -1802,7 +1802,7 @@ Main Slider Area CSS
                 opacity: 1;
                 visibility: hidden;
                 padding: 0;
- 
+
                 &:hover, &:focus {
                     background-color: $black-color;
                 }
@@ -1832,7 +1832,7 @@ Main Slider Area CSS
                     visibility: visible;
                     left: 20px;
                     transition: $transition;
-    
+
                     &.owl-next {
                         left: auto;
                         right: 20px;
@@ -1950,7 +1950,7 @@ Features Area CSS
     z-index: 1;
     transition: $transition;
     border-radius: 5px;
-    
+
     margin: {
         bottom: 30px;
     };
@@ -2555,7 +2555,7 @@ Digital Experience Area CSS
 .tab {
     .tabs_item {
         display: none;
-        
+
         &:first-child {
             display: block;
         }
@@ -2592,7 +2592,7 @@ Digital Experience Area CSS
             &:last-child {
                 margin-right: 0;
             }
-            
+
             &::before {
                 content: '';
                 position: absolute;
@@ -2872,7 +2872,7 @@ Portfolio Area CSS
     position: relative;
     z-index: 1;
     overflow: hidden;
- 
+
     &.bg-fff5ee {
         background-color: #fff5ee;
     }
@@ -3078,7 +3078,7 @@ Testimonial Area CSS
         position: absolute;
     }
 
-    .testimonial-content { 
+    .testimonial-content {
         position: relative;
         padding-left: 30px;
     }
@@ -3251,7 +3251,7 @@ Testimonial Area CSS
                 }
                 i {
                     font-size: 18px;
-                    font-weight: bold; 
+                    font-weight: bold;
                 }
             }
         }
@@ -3262,7 +3262,7 @@ Testimonial Area CSS
                     visibility: visible;
                     left: -20px;
                     transition: $transition;
-    
+
                     &.owl-next {
                         left: auto;
                         right: -20px;
@@ -3304,7 +3304,7 @@ Blog Area CSS
         border: 1px solid #fbe4d4;
         span {
             color: $paragraph-color;
-            
+
         }
         h3 {
             font-size: 22px;
@@ -3649,7 +3649,7 @@ Pricing Area CSS
     overflow: hidden;
     z-index: 1;
     text-align: left;
-  
+
     &::before {
         content: '';
         position: absolute;
@@ -3695,7 +3695,7 @@ Pricing Area CSS
         padding-left: 0;
         margin-bottom: 0;
         list-style-type: none;
- 
+
         li {
             margin-bottom: 12px;
             position: relative;
@@ -3797,8 +3797,8 @@ Pricing Area CSS
             &:hover {
                 color: $white-color;
                 background-color: $optional-color;
-            }          
-            
+            }
+
             &.react-tabs__tab--selected {
                 color: $white-color;
                 background-color: $optional-color;
@@ -4000,7 +4000,7 @@ Client Area CSS
                 [class*=owl-] {
                     left: -20px;
                     transition: $transition;
-    
+
                     &.owl-next {
                         left: auto;
                         right: -20px;
@@ -4232,7 +4232,7 @@ Overview Area CSS
         margin-top: 12px;
         margin-bottom: 16px;
     }
- 
+
     .overview-btn {
         margin-top: 30px;
     }
@@ -4283,6 +4283,22 @@ Page Banner CSS
     }
     &.item-bg4 {
         background-image: url(/images/page-banner/page-banner-5.jpg);
+    }
+
+    &.portfolio-detail-bg1 {
+        background-image: url(/images/portfolio/Bitrix24_1.jpg);
+    }
+    &.portfolio-detail-bg2 {
+        background-image: url(/images/portfolio/Freestufffinder_1.jpg);
+    }
+    &.portfolio-detail-bg3 {
+        background-image: url(/images/portfolio/Gooddoctors_1.jpg);
+    }
+    &.portfolio-detail-bg4 {
+        background-image: url(/images/portfolio/LGCNS_1.jpg);
+    }
+    &.portfolio-detail-bg5 {
+        background-image: url(/images/portfolio/Ziktalk_1.jpg);
     }
 }
 .page-banner-content {
@@ -4372,7 +4388,7 @@ FAQ Area CSS
             &:focus {
                 outline: 0;
             }
- 
+
             &:before {
                 margin-right: 0;
                 border-bottom: 2px solid #202647;
@@ -4408,7 +4424,7 @@ FAQ Area CSS
         }
 
         .accordion__panel {
-            padding: 20px; 
+            padding: 20px;
             border-top: 1px solid $optional-color;
             p:last-child {
                 margin-bottom: 0;
@@ -4457,7 +4473,7 @@ FAQ Area CSS
         #msgSubmit {
             margin: 0;
             font-size: 1.3rem;
-    
+
             &.text-danger, &.text-success {
                 margin-top: 15px;
             }
@@ -4663,7 +4679,7 @@ Forgot Password CSS
             margin-bottom: 30px;
         }
     }
-    
+
     form {
         .form-control {
             height: 60px;
@@ -4711,7 +4727,7 @@ Forgot Password CSS
     p {
         max-width: 520px;
         margin: 0 auto 25px;
-    } 
+    }
 }
 
 /*================================================
@@ -4721,7 +4737,7 @@ Privacy Area CSS
     h3 {
         font-size: 22px;
         margin: 0 0 16px 0;
-    }    
+    }
     ol, ul {
         margin-top: 20px;
 
@@ -4743,7 +4759,7 @@ Terms of Service Area CSS
     h3 {
         font-size: 22px;
         margin: 0 0 16px 0;
-    }    
+    }
     ol, ul {
         margin-top: 20px;
 
@@ -5065,7 +5081,7 @@ Services Details Area CSS
                 line-height: 1.8;
                 font-weight: 500;
                 font-size: $font-size;
-    
+
                 i {
                     color: $optional-color;
                     position: absolute;
@@ -5108,7 +5124,7 @@ Services Details Area CSS
                 display: block;
                 background: #f3f3f3;
                 margin-bottom: 10px;
-    
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -5147,7 +5163,7 @@ Services Details Area CSS
                 padding: 18px 20px;
                 border-top: 1px solid $optional-color;
                 color: $paragraph-color;
-    
+
                 &.show {
                     display: block;
                 }
@@ -5239,7 +5255,7 @@ Services Details Area CSS
             padding-left: 0;
             margin-bottom: 0;
             list-style-type: none;
-    
+
             li {
                 margin-bottom: 20px;
                 border-bottom: 1px solid #eeeeee;
@@ -5334,7 +5350,7 @@ Portfolio Details Area CSS
                 color: $optional-color;
             }
         }
-    } 
+    }
     h4 {
         margin-top: 20px;
         font-size: 25px;
@@ -5413,7 +5429,7 @@ Blog Details Area CSS
                     display: inline-block;
                     color: $black-color;
                     margin-right: 25px;
-                    
+
                     span {
                         display: inline-block;
                         color: $black-color;
@@ -5422,7 +5438,7 @@ Blog Details Area CSS
                     a {
                         display: inline-block;
                         color: $paragraph-color;
-    
+
                         &:hover {
                             color: $main-color;
                         }
@@ -5565,7 +5581,7 @@ Blog Details Area CSS
         .article-share {
             flex: 0 0 50%;
             max-width: 50%;
-            
+
             .social {
                 padding-left: 0;
                 list-style-type: none;
@@ -5591,7 +5607,7 @@ Blog Details Area CSS
                         border-radius: 50%;
                         background-color: #eeeef0;
                         text-align: center;
-        
+
                         &:hover {
                             color: $white-color;
                             background-color: $optional-color;
@@ -6382,7 +6398,7 @@ Cart Area CSS
                             min-width: 130px;
                             text-align: center;
                             display: inline-block;
-                            position: relative;    
+                            position: relative;
                             span {
                                 position: absolute;
                                 top: 0;
@@ -6447,7 +6463,7 @@ Cart Area CSS
         padding-left: 0;
         margin: 0 0 25px;
         list-style-type: none;
-        
+
         li {
             border: 1px solid #eaedff;
             padding: 20px 15px;
@@ -6839,7 +6855,7 @@ Product Details Area CSS
             margin-right: 10px;
             text-align: center;
             display: inline-block;
-            position: relative;    
+            position: relative;
             span {
                 position: absolute;
                 top: 0;
@@ -7020,7 +7036,7 @@ Product Details Area CSS
                     text-align: center;
                     font-size: 18px;
                     margin-left: 2px;
-    
+
                     &:hover, &:focus {
                         color: $main-color;
                         background-color: transparent;
@@ -7505,7 +7521,7 @@ Copy Right Area CSS
                 }
                 &:last-child {
                     margin-right: 0;
-    
+
                     &::before {
                         display: none;
                     }
@@ -7541,7 +7557,7 @@ Go Top CSS
         transition: .9s;
         overflow: hidden;
         box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-    
+
         &:hover {
             background: $optional-color;
             color: $white-color;
