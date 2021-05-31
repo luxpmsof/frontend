@@ -3897,6 +3897,7 @@ Blog Area CSS
 }
 
 .single-blog .content {
+  min-height: 225px;
   padding: 25px 20px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
@@ -5518,6 +5519,7 @@ Terms of Service Area CSS
 Contact Info Area CSS
 =================================================*/
 .contact-info-box {
+  min-height: 290px;
   text-align: center;
   border-radius: 5px;
   -webkit-transition: 0.5s;

@@ -58,11 +58,11 @@ const AboutOne = () => {
             <WhatWeDoingBest />
 
 
-
+            {/*
             <div className="pt-100">
                 <Partners />
             </div>
-
+*/}
             <Footer />
 		</>
     )

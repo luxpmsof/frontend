@@ -10,6 +10,7 @@ import '../public/css/responsive.css'
 import Layout from '../component/layout';
 
 const MyApp =  ({ Component, pageProps }) => {
+
   return (
       <Layout>
         <Component {...pageProps} />

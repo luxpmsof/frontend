@@ -11,7 +11,7 @@ const FunFacts = () => {
                                 <i className="flaticon-checked"></i>
                             </div>
                             <h3>30</h3>
-                            <p>Number of completed projects</p>
+                            <p>completed projects</p>
                         </div>
                     </div>
 
@@ -21,7 +21,7 @@ const FunFacts = () => {
                                 <i className="flaticon-happy"></i>
                             </div>
                             <h3>25</h3>
-                            <p>number of satisfied clients</p>
+                            <p>satisfied clients</p>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ const FunFacts = () => {
                                 <i className="flaticon-technical-support"></i>
                             </div>
                             <h3>4</h3>
-                            <p>number of countries</p>
+                            <p>countries</p>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ const FunFacts = () => {
                                 <i className="flaticon-trophy"></i>
                             </div>
                             <h3>4</h3>
-                            <p>number of winning awards</p>
+                            <p>winning awards</p>
                         </div>
                     </div>
                 </div>

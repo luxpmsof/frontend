@@ -23,13 +23,13 @@ const LatestBlogPost = () => {
                                 </Link>
                             </div>
                             <div className="content">
-                                <span>Constant Communication</span>
-                                <h3>
+                                <h3>Constant Communication</h3>
+                                <span>
                                     <Link href="/blog-details">
                                         <a>We respond quickly to requests and inquiries by assigning a communications team to each customer’s project team.
                                         </a>
                                     </Link>
-                                </h3>
+                                </span>
 
                             </div>
                         </div>
@@ -45,12 +45,12 @@ const LatestBlogPost = () => {
                                 </Link>
                             </div>
                             <div className="content">
-                                <span>Documentation</span>
-                                <h3>
+                                <h3>Documentation</h3>
+                                <span>
                                     <Link href="/blog-details">
                                         <a> We keep our customers updated every step of the way so that they know where we are with their services and projects by providing them with constant documentation such as schedules, wireframes, and wire flows.</a>
                                     </Link>
-                                </h3>
+                                </span>
 
                             </div>
                         </div>
@@ -66,13 +66,13 @@ const LatestBlogPost = () => {
                                 </Link>
                             </div>
                             <div className="content">
-                                <span>Code Review</span>
-                                <h3>
+                                <h3>Code Review</h3>
+                                <span>
                                     <Link href="/blog-details">
                                         <a> By assigning a Quality Assurance team to our customer’s project, we ensure that all our deliverables are up to expectations.
                                         </a>
                                     </Link>
-                                </h3>
+                                </span>
 
                             </div>
                         </div>

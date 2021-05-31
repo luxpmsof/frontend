@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navbar from '../component/layout/Navbar';
 import MainBanner from '../component/MainBanner';
 
@@ -12,6 +12,9 @@ import Footer from '../component/layout/Footer';
 import OurProjects from "../component/OurProjects";
 
 const Index = () => {
+    useEffect(() => {
+        document.documentElement.lang = "ko";
+    });
   return (
       <>
         <Navbar />
@@ -32,11 +35,11 @@ const Index = () => {
         <Testimonials />
 
 
-
+          {/*
         <div className="pt-100">
           <Partners />
         </div>
-
+        */}
         <Footer />
       </>
   )

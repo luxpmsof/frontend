@@ -20,11 +20,11 @@ const OurProjects = () => {
                             </div>
 
                             <div className="portfolio-content">
-                                <Link href={{ pathname: '/portfolio-details', query: { index: 0 } }}>
+                                <Link href={{ pathname: '/en/portfolio-details', query: { index: 0 } }}>
                                     <a><i className='bx bx-plus'></i></a>
                                 </Link>
                                 <h3>
-                                    <Link href={{ pathname: '/portfolio-details', query: { index: 0 } }}>
+                                    <Link href={{ pathname: '/en/portfolio-details', query: { index: 0 } }}>
                                         <a>Bitrix24</a>
                                     </Link>
                                 </h3>
@@ -40,11 +40,11 @@ const OurProjects = () => {
                             </div>
 
                             <div className="portfolio-content">
-                                <Link href={{ pathname: '/portfolio-details', query: { index: 1 } }}>
+                                <Link href={{ pathname: '/en/portfolio-details', query: { index: 1 } }}>
                                     <a><i className='bx bx-plus'></i></a>
                                 </Link>
                                 <h3>
-                                    <Link href={{ pathname: '/portfolio-details', query: { index: 1 } }}>
+                                    <Link href={{ pathname: '/en/portfolio-details', query: { index: 1 } }}>
                                         <a>Free Stuff Finder</a>
                                     </Link>
                                 </h3>
@@ -59,11 +59,11 @@ const OurProjects = () => {
                             </div>
 
                             <div className="portfolio-content">
-                                <Link href={{ pathname: '/portfolio-details', query: { index: 2 } }}>
+                                <Link href={{ pathname: '/en/portfolio-details', query: { index: 2 } }}>
                                     <a><i className='bx bx-plus'></i></a>
                                 </Link>
                                 <h3>
-                                    <Link href={{ pathname: '/portfolio-details', query: { index: 2 } }}>
+                                    <Link href={{ pathname: '/en/portfolio-details', query: { index: 2 } }}>
                                         <a>Good Doctors</a>
                                     </Link>
                                 </h3>
@@ -78,11 +78,11 @@ const OurProjects = () => {
                             </div>
 
                             <div className="portfolio-content">
-                                <Link href={{ pathname: '/portfolio-details', query: { index: 3 } }}>
+                                <Link href={{ pathname: '/en/portfolio-details', query: { index: 3 } }}>
                                     <a><i className='bx bx-plus'></i></a>
                                 </Link>
                                 <h3>
-                                    <Link href={{ pathname: '/portfolio-details', query: { index: 3 } }}>
+                                    <Link href={{ pathname: '/en/portfolio-details', query: { index: 3 } }}>
                                         <a>LG CNS</a>
                                     </Link>
                                 </h3>
@@ -97,11 +97,11 @@ const OurProjects = () => {
                             </div>
 
                             <div className="portfolio-content">
-                                <Link href={{ pathname: '/portfolio-details', query: { index: 4 } }}>
+                                <Link href={{ pathname: '/en/portfolio-details', query: { index: 4 } }}>
                                     <a><i className='bx bx-plus'></i></a>
                                 </Link>
                                 <h3>
-                                    <Link href={{ pathname: '/portfolio-details', query: { index: 4 } }}>
+                                    <Link href={{ pathname: '/en/portfolio-details', query: { index: 4 } }}>
                                         <a>Ziktalk</a>
                                     </Link>
                                 </h3>

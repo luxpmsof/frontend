@@ -49,7 +49,7 @@ const Footer = () => {
                                         </a>
                                     </li>
                                 </ul>
-                                */}
+
 
 
 
@@ -60,7 +60,7 @@ const Footer = () => {
                                             </a>
                                         </Link>
                                     </div>
-
+*/}
 
                             </div>
 
@@ -150,7 +150,7 @@ const Footer = () => {
                                     Copyright &copy;{currentYear} LuxPM. All Rights Reserved by LuxPM
                                 </p>
                             </div>
-
+                            {/*
                             <div className="col-lg-6 col-md-6">
                                 <ul>
                                     <li>
@@ -165,6 +165,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
+                            */}
                         </div>
                     </div>
                 </div>

@@ -23,13 +23,13 @@ const LatestBlogPost = () => {
                                 </Link>
                             </div>
                             <div className="content">
-                                <span>지속적인 의사소통</span>
-                                <h3>
+                                <h3>지속적인 의사소통</h3>
+                                <span>
                                     <Link href="/blog-details">
                                         <a> 각 고객의 프로젝트팀에 커뮤니케이션 팀을 배정하여 요청 및 문의에 신속하게 대응하도록 합니다.
                                         </a>
                                     </Link>
-                                </h3>
+                                </span>
 
                             </div>
                         </div>
@@ -45,12 +45,12 @@ const LatestBlogPost = () => {
                                 </Link>
                             </div>
                             <div className="content">
-                                <span>문서 제공</span>
-                                <h3>
+                                <h3>문서 제공</h3>
+                                <span>
                                     <Link href="/blog-details">
                                         <a> 고객에게 개발의 진행 상항을 파악하도록 일정, 와이어 프레임 및 개발 현황표와 같은 지속적인 문서를 제공하여 모든 단계를 업데이트합니다.</a>
                                     </Link>
-                                </h3>
+                                </span>
 
                             </div>
                         </div>
@@ -66,13 +66,13 @@ const LatestBlogPost = () => {
                                 </Link>
                             </div>
                             <div className="content">
-                                <span>코드 검증</span>
-                                <h3>
+                                <h3>코드 검증</h3>
+                                <span>
                                     <Link href="/blog-details">
                                         <a> 고객의 프로젝트에 품질 보증 팀을 배정함으로써 모든 결과물이 기대에 부응하도록 합니다.
                                         </a>
                                     </Link>
-                                </h3>
+                                </span>
 
                             </div>
                         </div>
