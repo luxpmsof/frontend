@@ -77,34 +77,32 @@ const Footer = () => {
                                             <a>회사소개</a>
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link href="/portfolio-1">
-                                            <a>포트폴리오</a>
-                                        </Link>
-                                    </li>
+
 
                                     <li>
                                         <Link href="/contact-1">
                                             <a>연락처</a>
                                         </Link>
                                     </li>
+                                    {/*
                                     <li>
                                         <Link href="/privacy-policy">
                                             <a>개인정보정책</a>
                                         </Link>
                                     </li>
+                                    */}
                                 </ul>
                             </div>
                         </div>
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Featured Services</h3>
+                                <h3>Portfolio Links</h3>
 
                                 <ul className="quick-links">
                                     <li>
-                                        <Link href="/services-details">
-                                            <a>IT Management</a>
+                                        <Link href="/portfolio-1">
+                                            <a>포트폴리오</a>
                                         </Link>
                                     </li>
 

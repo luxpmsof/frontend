@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
         <>
             <Head>
                 <title>LuxPM</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                 <meta charSet="utf-8"/>
                 <meta content="website" property="og:type"/>
                 <meta content="LuxPM is one of the top software engineering firms in the Asia-Pacific region" property="title"/>
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
                 <meta content="https://www.luxpmsoft.com/static/media/portfolio-banner.c361fa01.webp" property="og:image"/>
                 <meta name="keywords" content="Full Stack,AI,Android,Swift,Kotlin,Python,React,React Native,Vue,API Development,APP Development,IOS Development,IOS App Developer,IT Development"
                       className="next-head" />
+                <meta content="LuxPM Inc,." name="author"/>
             </Head>
 
             {children}

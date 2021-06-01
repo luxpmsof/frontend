@@ -16,9 +16,6 @@ const Layout = ({ children }) => {
                 <meta content="https://www.luxpmsoft.com/static/media/portfolio-banner.c361fa01.webp" property="og:image"/>
                 <meta name="keywords" content="Full Stack,AI,Android,Swift,Kotlin,Python,React,React Native,Vue,API 개발,APP 개발,IOS 개발,IOS 개발자,IOS 앱개발,IT 개발,모바일앱,모바일앱개발비용,모바일어플,모바일어플개발,모바일앱,모바일플랫폼,병원예약어플,쇼핑몰어플,스마트폰앱,안드로이드개발,안드로이드개발자,안드로이드앱,안드로이드앱개발,안드로이드어플,안드로이드어플만들기,안드로이드프로그래밍,앱개발,앱개발업체,앱개발프로그램,앱만들기,앱제작비용,어플개발비용,어플개발업체,어플개발회사,어플리케이션개발,어플만들기,어플제작,어플제작비용,어플제작업체,웹기획,웹서비스,웹어플리케이션,웹제작,웹페이지제작,차량관리어플,콘텐츠개발,프로그램개발,플랫폼개발,플랫폼구축,플랫폼제작,하이브리드웹,홈페이지개발,홈페이지구축,홈페이지업체"
                       className="next-head" />
-                {/*<meta content="b71b2c10d9769acf2bbba795faae53449827e0b7" name="naver-site-verification"/>*/}
-                <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-                <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
                 <meta content="LuxPM Inc,." name="author"/>
 
                 <link rel="canonical" href="https://renex-react.envytheme.com/"></link>
