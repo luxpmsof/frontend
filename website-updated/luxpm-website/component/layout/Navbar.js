@@ -82,7 +82,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/" activeClassName="active">
                                             <a  className="nav-link">
-                                                홈페이지 <i className='bx bx-chevron-down'></i>
+                                                홈페이지
                                             </a>
                                         </Link>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/about-1"  activeClassName="active">
                                             <a  className="nav-link">
-                                                회사소개 <i className='bx bx-chevron-down'></i>
+                                                회사소개
                                             </a>
                                         </Link>
 
@@ -101,7 +101,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/portfolio-1/"   activeClassName="active">
                                             <a className="nav-link">
-                                                포트폴리오 <i className='bx bx-chevron-down'></i>
+                                                포트폴리오
                                             </a>
                                         </Link>
 
@@ -110,7 +110,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/contact-1"  activeClassName="active">
                                             <a   className="nav-link">
-                                                연락처 <i className='bx bx-chevron-down'></i>
+                                                연락처
                                             </a>
                                         </Link>
 

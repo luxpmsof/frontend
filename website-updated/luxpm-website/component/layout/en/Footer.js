@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className="footer-area pt-100 pb-70">
+            <div className="footer-area pt-100 pb-70" style={{background: "black", color: "white"}}>
                 <div className="container">
 
                     <div className="row">
@@ -20,7 +20,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
 
-                                <p>Work with us: Join our global community by working together with some of the best software engineering consultants in the Asia-Pacific region</p>
+                                <p style={{color: "white"}}>Work with us: Join our global community by working together with some of the best software engineering consultants in the Asia-Pacific region</p>
                                 {/*
                                 <ul className="social">
                                     <li>
@@ -69,19 +69,19 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Important Links</h3>
+                                <h3 style={{color: "white"}}>Important Links</h3>
 
                                 <ul className="quick-links">
                                     <li>
                                         <Link href="/about-1">
-                                            <a>About Us</a>
+                                            <a style={{color: "white"}}>About Us</a>
                                         </Link>
                                     </li>
 
 
                                     <li>
                                         <Link href="/contact-1">
-                                            <a>Contact</a>
+                                            <a style={{color: "white"}}>Contact</a>
                                         </Link>
                                     </li>
                                     {/*
@@ -97,12 +97,12 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Portfolio Links</h3>
+                                <h3 style={{color: "white"}}>Portfolio Links</h3>
 
                                 <ul className="quick-links">
                                     <li>
                                         <Link href="/en/portfolio-1">
-                                            <a>Portfolio</a>
+                                            <a style={{color: "white"}}>Portfolio</a>
                                         </Link>
                                     </li>
 
@@ -112,25 +112,21 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Information</h3>
+                                <h3 style={{color: "white"}}>Information</h3>
 
                                 <ul className="footer-contact-info">
                                     <li>
                                         <i className="flaticon-call"></i>
-                                        <span>Phone</span>
-                                        <a href="tel:+82317144530">+82 31-714-4530</a>
-                                        <span>Fax</span>
-                                        <a href="fax:+82317144531">+82 31-714-4531</a>
+                                        <a style={{color: "white"}} href="tel:+82317144530">+82 31-714-4530</a>
+                                        <a style={{color: "white"}} href="fax:+82317144531">+82 31-714-4531</a>
                                     </li>
                                     <li>
                                         <i className="flaticon-email-1"></i>
-                                        <span>Email</span>
-                                        <a href="mailto:sales@luxpmsoft.com">sales@luxpmsoft.com</a>
+                                        <a style={{color: "white"}} href="mailto:sales@luxpmsoft.com">sales@luxpmsoft.com</a>
                                     </li>
                                     <li>
                                         <i className="flaticon-pin"></i>
-                                        <span>Address</span>
-                                        <a href="https://www.google.com/maps/@37.4004578,127.1104545" target="_blank">49, Daewangpangyo-ro 644beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</a>
+                                        <a style={{color: "white"}} href="https://www.google.com/maps/@37.4004578,127.1104545" target="_blank">49, Daewangpangyo-ro 644beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea</a>
                                     </li>
                                 </ul>
                             </div>

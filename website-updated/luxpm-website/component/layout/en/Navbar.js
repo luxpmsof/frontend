@@ -77,7 +77,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/en/" activeClassName="active">
                                             <a  className="nav-link">
-                                                Home <i className='bx bx-chevron-down'></i>
+                                                Home 
                                             </a>
                                         </Link>
 
@@ -87,7 +87,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/en/about-1"  activeClassName="active">
                                             <a  className="nav-link">
-                                                About Us <i className='bx bx-chevron-down'></i>
+                                                About Us 
                                             </a>
                                         </Link>
 
@@ -96,7 +96,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/en/portfolio-1/"   activeClassName="active">
                                             <a className="nav-link">
-                                                Portfolio <i className='bx bx-chevron-down'></i>
+                                                Portfolio 
                                             </a>
                                         </Link>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
                                     <li className="nav-item">
                                         <Link href="/en/contact-1"  activeClassName="active">
                                             <a   className="nav-link">
-                                                Contact Us <i className='bx bx-chevron-down'></i>
+                                                Contact Us 
                                             </a>
                                         </Link>
 

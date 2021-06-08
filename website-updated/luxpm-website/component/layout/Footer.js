@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className="footer-area pt-100 pb-70">
+            <div className="footer-area pt-100 pb-70" style={{background: "black", color: "white"}}>
                 <div className="container">
 
                     <div className="row">
@@ -20,7 +20,7 @@ const Footer = () => {
                                     </Link>
                                 </div>
 
-                                <p>당사와 협업을 희망하신다면: 아시아-태평양 지역에서 가장 우수한 소프트웨어 엔지니어링 컨설턴트와 협업하여 글로벌 커뮤니티에 참여하십시오</p>
+                                <p style={{color: "white"}}>당사와 협업을 희망하신다면: 아시아-태평양 지역에서 가장 우수한 소프트웨어 엔지니어링 컨설턴트와 협업하여 글로벌 커뮤니티에 참여하십시오</p>
                                 {/*
                                 <ul className="social">
                                     <li>
@@ -69,10 +69,16 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Important Links</h3>
+                                <h3 style={{color: "white"}}>Important Links</h3>
 
                                 <ul className="quick-links">
                                     <li>
+                                        <span><a style={{color: "white"}} href="/about-1">회사소개</a></span>
+                                    </li>
+                                    <li>
+                                        <span><a style={{color: "white"}} href="/contact-1">연락처</a></span>
+                                    </li>
+                                    {/* <li>
                                         <Link href="/about-1">
                                             <a>회사소개</a>
                                         </Link>
@@ -83,7 +89,7 @@ const Footer = () => {
                                         <Link href="/contact-1">
                                             <a>연락처</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     {/*
                                     <li>
                                         <Link href="/privacy-policy">
@@ -97,12 +103,12 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Portfolio Links</h3>
+                                <h3 style={{color: "white"}}>Portfolio Links</h3>
 
                                 <ul className="quick-links">
                                     <li>
                                         <Link href="/portfolio-1">
-                                            <a>포트폴리오</a>
+                                            <a style={{color: "white"}}>포트폴리오</a>
                                         </Link>
                                     </li>
 
@@ -112,25 +118,22 @@ const Footer = () => {
 
                         <div className="col-lg-3 col-sm-6">
                             <div className="single-footer-widget pl-5">
-                                <h3>Information</h3>
+                                <h3 style={{color: "white"}}>Information</h3>
 
                                 <ul className="footer-contact-info">
                                     <li>
                                         <i className="flaticon-call"></i>
-                                        <span>전화번호</span>
-                                        <a href="tel:+82317144530">+82 31-714-4530</a>
-                                        <span>팩스</span>
-                                        <a href="fax:+82317144530">+82 31-714-4531</a>
+                                        <span style={{color: "white"}}><a style={{color: "white"}} href="tel:+82317144530">+82 31-714-4530</a></span> 
                                     </li>
                                     <li>
                                         <i className="flaticon-email-1"></i>
-                                        <span>이메일</span>
-                                        <a href="mailto:sales@luxpmsoft.com">sales@luxpmsoft.com</a>
+                                        <span style={{color: "white"}}><a href="mailto:sales@luxpmsoft.com" style={{color: "white"}}>sales@luxpmsoft.com</a></span> 
                                     </li>
                                     <li>
                                         <i className="flaticon-pin"></i>
-                                        <span>주소</span>
-                                        <a href="https://www.google.com/maps/@37.4004578,127.1104545" target="_blank">경기도 성남시 분당구 대왕판교로644번길 49 202호</a>
+                                        <span style={{color: "white"}}>
+                                            <a style={{color: "white"}} href="https://www.google.com/maps/@37.4004578,127.1104545" target="_blank">경기도 성남시 분당구 대왕판교로644번길 49 202호</a>
+                                        </span>
                                     </li>
                                 </ul>
                             </div>

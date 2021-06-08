@@ -13,26 +13,26 @@ const DigitalExperience = () => {
 
                 <div className="tab align-items-center digital-experience-tab  ">
                     <Tabs>
-                        <TabList>
-                            <Tab>
+                        <TabList style={{margin:"auto !important", display:"table",   display:"flex", justifyContent: "center"}}>
+                            <Tab style={{display: "list-item"}}>
                                 <span>
                                     <i className="flaticon-digital-marketing flex-fill"></i>
                                     Web Apps
                                 </span>
                             </Tab>
-                            <Tab>
+                            <Tab style={{display: "list-item"}}>
                                 <span>
                                     <i className="flaticon-profit"></i>
                                     Big Data
                                 </span>
                             </Tab>
-                            <Tab>
+                            <Tab style={{display: "list-item"}}>
                                 <span>
                                     <i className="flaticon-email-marketing"></i>
                                     Mobile
                                 </span>
                             </Tab>
-                            <Tab>
+                            <Tab style={{display: "list-item"}}>
                                 <span>
                                     <i className="flaticon-network"></i>
                                     Artificial intelligence

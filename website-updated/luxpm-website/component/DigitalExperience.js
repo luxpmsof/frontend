@@ -11,38 +11,39 @@ const DigitalExperience = () => {
                     <div className="bar"></div>
                 </div>
 
-                <div className="tab   digital-experience-tab  ">
-                    <Tabs  >
-                        <TabList>
+                <div className="tab   digital-experience-tab  " style={{margin:"auto !important", alignItems:"center!important"}}>
 
-                            <Tab selected={true}>
-                                <span>
-                                    <i className="flaticon-digital-marketing"></i>
-                                    웹 애플리케이션
-                                </span>
-                            </Tab>
-                            <Tab>
-                                <span>
-                                    <i className="flaticon-profit"></i>
-                                    빅 데이터
-                                </span>
-                            </Tab>
-                            <Tab>
-                                <span>
-                                    <i className="flaticon-email-marketing"></i>
-                                    모바일 앱
-                                </span>
-                            </Tab>
-                            <Tab>
-                                <span>
-                                    <i className="flaticon-network"></i>
-                                    인공지능
-                                </span>
-                            </Tab>
+                    <Tabs  fill >
+                            <TabList style={{margin:"auto !important", display:"table",   display:"flex", justifyContent: "center"}}>
+
+                                <Tab selected={true} style={{display: "list-item"}}>
+                                    <span>
+                                        <i className="flaticon-digital-marketing"></i>
+                                        웹 애플리케이션
+                                    </span>
+                                </Tab >
+                                <Tab style={{display: "list-item"}}>
+                                    <span>
+                                        <i className="flaticon-profit"></i>
+                                        빅 데이터
+                                    </span>
+                                </Tab>
+                                <Tab style={{display: "list-item"}}>
+                                    <span>
+                                        <i className="flaticon-email-marketing"></i>
+                                        모바일 앱
+                                    </span>
+                                </Tab>
+                                <Tab style={{display: "list-item"}}>
+                                    <span>
+                                        <i className="flaticon-network"></i>
+                                        인공지능
+                                    </span>
+                                </Tab>
 
 
-                        </TabList>
-
+                            </TabList>
+                            <br></br>
                         <TabPanel>
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
